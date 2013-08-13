@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /mitglieder/index.html
+title: "Mitglieder"
+description: "Die Mitglieder der companie."
+---
+
+<ul class="post-list">
+{% for post in site.posts %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
+{% endfor %}
+</ul>
