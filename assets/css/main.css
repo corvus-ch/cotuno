@@ -112,7 +112,7 @@ pre{font-size:12px;font-size:.75rem;line-height:2}
 .highlight .il{color:#099}
 .clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
 .clearfix:after{clear:both}
-.hidden{display:none;visibility:hidden}
+.hidden{display:none !important;visibility:hidden}
 .visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{position:static;clip:auto;height:auto;width:auto;margin:0;overflow:visible}
 hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff}
 figure{margin:0;padding-top:10px;padding-bottom:10px;*zoom:1}figure:before,figure:after{display:table;content:"";line-height:0}
