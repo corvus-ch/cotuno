@@ -5,6 +5,7 @@ description: ""
 category: mitglieder
 image:
   feature: so-simple-sample-image-2.jpg
+  portrait: christian_portrait.jpg
   credit: Michael Rose
   creditlink: http://mademistakes.com
 ---
