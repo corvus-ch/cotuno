@@ -2,6 +2,7 @@
 layout: member
 title: "Chrisitan Häusler"
 description: ""
+modified: 2013-08-14
 category: mitglieder
 image:
   feature: so-simple-sample-image-2.jpg
