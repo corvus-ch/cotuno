@@ -21,6 +21,6 @@ Als Edelmann bin ich des Schreibens mächtig und so versuche mich denn auch zum 
 
 Aber einmal unter uns, so wichtig bin ich gar nicht wie ich mich meistens gebe und währe da nicht mein Gefolge, so hätte ich ja gar nichts mit dem ich angeben könnte.
 
-So sind es den auch die Handwerkerinnen und Handwerker die mit ihrer Fertigkeit schöne und nützliche Dinge herstellen, die Krieger die für unsere Sicherheit sorgen und unsere Köchin die für unser aller Wohl sorgt.
+So sind es den auch die Handwerkerinnen und Handwerker die mit ihrer Fertigkeit schöne und nützliche Dinge herstellen, die Krieger die für unsere Sicherheit sorgen und unsere Köchin die für unser leiblich Wohl sorgt.
 
 Und so freue ich mich immer wieder aufs neue wenn es heisst eine gute Zeit mit meinen Freunden auf einem Markt oder einem Lager zu verbringen.
