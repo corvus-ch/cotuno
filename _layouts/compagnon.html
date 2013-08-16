@@ -26,7 +26,7 @@
       </header>
       <footer class="entry-meta">
         <img src="{{ site.url }}/images/{{ page.image.portrait }}" alt="Portrait von {{ page.title }}" class="author-photo">
-        {% if page.character.name %}<span class="character name"><i class="icon-user"></i> {{ page.character.name }}</span>{% endif %}
+        {% if page.character.name %}<span class="character name">{{ page.character.name }}</span>{% endif %}
         {% if page.character.description %}<span class="character description"><i class="icon-user"></i> {{ page.character.description }}</span>{% endif %}
         <span class="author vcard visuallyhidden" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}{{ page.url }}" title="Über {{ page.title }}" itemprop="url">{{ page.title }}</a></span></span>
         {% if page.modified %}<span class="entry-date date modified visuallyhidden"><time datetime="{{ page.modified }}" itemprop="dateModified"><i class="icon-pencil"></i> {{ page.modified | date: "%d. %B %Y" }}</time></span>{% endif %}
