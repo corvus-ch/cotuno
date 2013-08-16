@@ -1,6 +1,9 @@
 ---
 layout: compagnon
 title: "Chrisitan Häusler"
+character:
+  name: "Graf Chrisitan Häusler"
+  description: Edelmann
 description: ""
 modified: 2013-08-14
 category: compagnons
@@ -10,6 +13,14 @@ image:
   credit: Michael Rose
   creditlink: http://mademistakes.com
 ---
-Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Seit gegrüsst ihr edlen Leut. Ich nenne mich Graf Christian Häusler und bin hier der wichtigste auf Platz.
 
-Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor.
+Zu Hause auf meinem Gut ist es mir zu langweilig geworden und darum ziehe ich nun mit meinem Gefolge von Markt zu Markt und von Heerlager zu Heerlager.
+
+Als Edelmann bin ich des Schreibens mächtig und so versuche mich denn auch zum Zeitvertreib in meinen Mussestunden mit der Kaligraphie – ihr wisst schon; schönschreiben haben wir das in der Schule genannt – und den Rest meiner Zeit verbringe ich damit mich wichtig zu geben.
+
+Aber einmal unter Uns, so wichtig bin ich gar nicht wie ich mich meistens gebe. Währe da nicht mein Gefolge, so hätte ich ja gar nichts mit dem ich angeben könnte.
+
+So sind es den auch die Handwerkerinnen und Handwerker die mit ihrer Fertigkeit schöne und nützliche Dinge herstellen, die Krieger die für unsere Sicherheit sorgen und unsere Köchin die für unser aller Wohl sorgt.
+
+Und so freue ich mich immer wieder aufs neue wenn es heisst eine gute Zeit mit meinen Freunden auf einem Markt oder einem Lager zu verbringen.
