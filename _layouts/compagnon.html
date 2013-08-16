@@ -26,8 +26,8 @@
       </header>
       <footer class="entry-meta">
         <img src="{{ site.url }}/images/{{ page.image.portrait }}" alt="Portrait von {{ page.title }}" class="author-photo">
-        <span class="author vcard hidden" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}{{ page.url }}" title="Über {{ page.title }}" itemprop="url">{{ page.title }}</a></span></span>
-        {% if page.modified %}<span class="entry-date date modified hidden"><time datetime="{{ page.modified }}" itemprop="dateModified"><i class="icon-pencil"></i> {{ page.modified | date: "%d. %B %Y" }}</time></span>{% endif %}
+        <span class="author vcard visuallyhidden" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}{{ page.url }}" title="Über {{ page.title }}" itemprop="url">{{ page.title }}</a></span></span>
+        {% if page.modified %}<span class="entry-date date modified visuallyhidden"><time datetime="{{ page.modified }}" itemprop="dateModified"><i class="icon-pencil"></i> {{ page.modified | date: "%d. %B %Y" }}</time></span>{% endif %}
         <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url"><i class="icon-link"></i> Permalink</a></span>
       </footer>
       <div class="entry-content" itemprop="description">
