@@ -1,9 +1,9 @@
 ---
-layout: member
+layout: compagnon
 title: "Chrisitan Häusler"
 description: ""
 modified: 2013-08-14
-category: mitglieder
+category: compagnons
 image:
   feature: so-simple-sample-image-2.jpg
   portrait: christian_portrait.jpg
