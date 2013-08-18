@@ -1,0 +1,18 @@
+---
+layout: page
+permalink: /kalender/index.html
+title: "Kalender"
+description: "Anlässe an denen die Compagnie de la tulipe noire mit von der Partie ist."
+---
+
+<ul class="post-list">  
+{% for post in site.categories['events'] %} 
+  <li><article>
+    <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% if post.start %}<p>
+        <time datetime="{{ page.modified }}">{{ post.start | date: "%d. %B %Y" }}</time>
+        {% if post.end %} - <time datetime="{{ page.modified }}">{{ post.end | date: "%d. %B %Y" }}</time>{% endif %}
+    </p>{% endif %}
+  </article></li>
+{% endfor %}
+</ul>

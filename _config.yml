@@ -35,6 +35,8 @@ links:
     url: /
   - title: "Les Compagnons"
     url: /compagnons
+  - title: Kalender
+    url: /kalender
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Zurich
