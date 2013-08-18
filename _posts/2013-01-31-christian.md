@@ -4,7 +4,7 @@ title: "Chrisitan Häusler"
 character:
   name: "Graf Chrisitan Häusler"
   description: Edelmann
-description: ""
+description: "Graf Christian Häusler. Mit seinem Gefolge unterwegs von Markt zu Markt und Lager zu Lager."
 modified: 2013-08-14
 category: compagnons
 image:
