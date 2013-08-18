@@ -5,8 +5,8 @@ title: "Les Compagnons"
 description: "Die Mitglieder der Companie."
 ---
 
-<ul class="post-list">
-{% for post in site.posts %} 
+<ul class="post-list">  
+{% for post in site.categories['compagnons'] %} 
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
 {% endfor %}
 </ul>

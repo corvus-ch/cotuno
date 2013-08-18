@@ -35,16 +35,16 @@
       <div class="entry-content" itemprop="description">
         {{ content }}
         {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+        <nav>
+          <h1>Weitere Compagnons</h1>
+          <ul class="post-list">  
+          {% for post in site.categories['compagnons'] %} 
+            {% if page.url != post.url %}<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>{% endif %}
+          {% endfor %}
+          </ul>
+        </nav>
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
-    <nav class="pagination" role="navigation">
-      {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Vorheriges Mitglied</a>
-      {% endif %}
-      {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Weiteres Mitglied</a>
-      {% endif %}
-    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
