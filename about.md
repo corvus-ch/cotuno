@@ -2,12 +2,15 @@
 layout: page
 permalink: /index.html
 ---
-
 Wer kennt es nicht? Das sitzt man hinter einer Schulbank und vorne an der Tafel leiert ein Lehrer eine anscheinend endlose liste von Namen, Orten und Jahreszahlen herunter. Da ist es den auch nicht verwunderlich, wenn für den Einen oder Anderen Geschichte ein Synonym für Langeweile ist.
 
 Geschichte kann aber auch anders, kann interessant, kann lebendig sein und zwar in dem man sie aktiv zum leben erweckt. Wir von der Companie de la Tulipe Noire versuchen uns an genau diesem Kunststück. Wir machen Living History. Wir versuchen den damaligen Alltag nachzuempfinden in dem wir ihn selber leben und können dabei ganz viel Interessantes entdecken.
 
-Trotz allem Effort den wir Rund um den geschichtlichen Aspekt auf uns nehmen, wollen wir aber vor allem gemeinsam eine gute Zeit haben und man möge es uns verzeihen wenn es uns nicht immer gelingt alle Aspekte detailgetreu nachzustellen.
+Die Compangnie de la Tulipe Noire ist die Reisegesellschaft eines adligen zur Mitte des 15. Jahrhunderts und nimmt als solche an verschiedenen Mittelaltermärkten und Heerlager teil. Wir zeigen wie das Lagerleben anno dazumal ausgesehen haben könnte.
+
+Wer sich für das historische Handwerk interessiert kann sich von unseren Handwerkerinnen und Handwerker zeigen lassen wie dazumal Stoffe gewoben wurde, schöne Stickereien und Bänder entstanden sind oder wie man sich allerlei nützliches aus Leder machen kann. Wen das Fieber gepackt hat, der darf gerne auch selber Hand anlegen und  kleinere Handwerkserzeugnisse selber herstellen.
+
+Trotz allem Effort den wir Rund um den geschichtlichen Aspekt auf uns nehmen, wollen wir aber vor allem gemeinsam eine gute Zeit haben und man möge es uns verzeihen wenn es uns nicht immer alle historischen Aspekte bis ins kleinste Detail berücksichtigen.
 
 ## Kontaktieren sie uns
 
