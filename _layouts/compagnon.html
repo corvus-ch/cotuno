@@ -14,7 +14,7 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage">
   <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" width="1900" height="800" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
@@ -25,7 +25,7 @@
         {% endif %}
       </header>
       <footer class="entry-meta">
-        <img src="{{ site.url }}/images/{{ page.image.portrait }}" alt="Portrait von {{ page.title }}" class="author-photo">
+        <img src="{{ site.url }}/images/{{ page.image.portrait }}" alt="Portrait von {{ page.title }}" width="140" height="150" class="author-photo">
         {% if page.character.name %}<span class="character name">{{ page.character.name }}</span>{% endif %}
         {% if page.character.description %}<span class="character description"><i class="icon-user"></i> {{ page.character.description }}</span>{% endif %}
         <span class="author vcard visuallyhidden" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="{{ site.url }}{{ page.url }}" title="Über {{ page.title }}" itemprop="url">{{ page.title }}</a></span></span>
