@@ -37,12 +37,29 @@ Senden sie uns eine kurze Nachricht.
             </div>
             <p class="instruct" id="instruct2"><small>Ihre E-Mailadresse wird nicht veröffentlicht oder weitergegeben und wird ausschliesslich dazu verwendet um auf Ihre Anfrage zu antworten.</small></p>
         </li>
+        <li id="fo1licaptcha" class="captcha notranslate">
+            <label class="hidden desc" for="recaptcha_response_field">Geben Sie die beiden W&ouml;rter im Bild unten ein. <span class="req">*</span></label>
+            <script type="text/javascript">
+                var RecaptchaOptions = {theme : 'clean'};
+                var host = (("https:" == document.location.protocol) ? "https://www." : "http://www.");
+                document.write(unescape("%3Cscript src='" + host + "google.com/recaptcha/api/challenge?k=6LdckMgSAAAAAO4lxG_zoJRlOLfCwUuDhJoXHTYt' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <noscript>
+                <div class="noscript">
+                    <label class="desc">Step 1</label>
+                    <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdckMgSAAAAAO4lxG_zoJRlOLfCwUuDhJoXHTYt" height="260" width="500" frameborder="0"></iframe>
+                    <label class="desc" for="recaptcha_challenge_field">Step 2</label>
+                    <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                    <input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+                </div>
+            </noscript>
+        </li>
         <li class="buttons">
             <div>
                 <input id="saveForm" name="saveForm" class="btTxt submit btn btn-inverse" type="submit" value="Übermitteln" />
             </div>
         </li>
-        <li class="hidden">
+        <li class="visuallyhidden">
             <label for="comment">Do Not Fill This Out</label>
             <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
             <input type="hidden" id="idstamp" name="idstamp" value="7STcLsBcC49dNAuqwoxWAIKq/ZMj7mV5L+E++rbNq0Y=" />

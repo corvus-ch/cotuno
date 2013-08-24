@@ -607,7 +607,6 @@ form li.section.scrollText h3 {
 form li.captcha {
     width: auto !important;
     clear: both;
-    border-top: 1px dotted #ccc;
     margin-top: 5px;
     padding: 1.1em 1% 9px 1%;
     width: auto !important;
