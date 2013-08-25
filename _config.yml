@@ -7,17 +7,17 @@ url:              http://cotuno.ch
 
 # Owner/author information
 owner:
-  name:           "Christian Häusler"
-  avatar:         christian_portrait.jpg
-  email:          haeusler.christian@mac.com
+  name:           "Compagnie de la tulipe noire"
+  avatar:         site-logo.png
+  email:          kontakt@cotuno.ch
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
+  twitter:        cotuno
+  facebook:       cotuno.ch
   github:         
   stackexchange:  
   linkedin:       
   instagram:      
-  flickr:         
+  flickr:         groups/cotuno
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
