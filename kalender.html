@@ -6,7 +6,7 @@ description: "Anlässe an denen die Compagnie de la tulipe noire mit von der Par
 ---
 
 <ul class="post-list">  
-{% for post in site.categories['events'] %} 
+{% for post in site.categories['events'] reversed %}
   <li><article>
     <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
     {% if post.start %}<p>
