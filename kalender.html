@@ -7,12 +7,16 @@ description: "Anlässe an denen die Compagnie de la tulipe noire mit von der Par
 
 <ul class="post-list">  
 {% for post in site.categories['events'] reversed %}
-  <li><article>
+  {% if post.start %}
+    {% capture start %}{{ post.start | date: '%s' }}{% endcapture %}
+    {% capture now %}{{ site.time | date: '%s' }}{% endcapture %}
+  {% endif %}
+  {% if start and start > now %}<li><article>
     <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
     {% if post.start %}<p>
         <time datetime="{{ page.modified }}">{{ post.start | date: "%d. %B %Y" }}</time>
         {% if post.end %} - <time datetime="{{ page.modified }}">{{ post.end | date: "%d. %B %Y" }}</time>{% endif %}
     </p>{% endif %}
-  </article></li>
+  </article></li>{% endif %}
 {% endfor %}
 </ul>
