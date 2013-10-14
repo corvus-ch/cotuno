@@ -12,7 +12,7 @@ description: "Anlässe an denen die Compagnie de la tulipe noire mit von der Par
     {% capture now %}{{ site.time | date: '%s' }}{% endcapture %}
   {% endif %}
   {% if start and start > now %}<li><article>
-    <h1><a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% if post.link %}<h1><a href="{{ post.link }}">{{ post.title }}</a></h1>{% else %}<h1>{{ post.title }}</h1>{% endif %}
     {% if post.start %}<p>
         <time datetime="{{ page.modified }}">{{ post.start | date: "%d. %B %Y" }}</time>
         {% if post.end %} - <time datetime="{{ page.modified }}">{{ post.end | date: "%d. %B %Y" }}</time>{% endif %}
